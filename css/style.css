@@ -6,10 +6,6 @@
 
 /* Custom Properties, update these for your own design */
 
-html {
-  scroll-behavior: smooth;
-}
-
 :root {
   --ff-primary: "Source Sans Pro", sans-serif;
   --ff-secondary: "Source Code Pro", monospace;
@@ -40,6 +36,11 @@ html {
 }
 
 /* General styles */
+
+/* endable this to add smooth scrolling */
+/* html {
+    scroll-behavior: smooth;
+} */
 
 body {
   background: var(--clr-light);
